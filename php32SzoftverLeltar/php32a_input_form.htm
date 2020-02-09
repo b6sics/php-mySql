@@ -1,0 +1,74 @@
+<div class='front_page'>
+    <h1>Szoftverleltár</h1>
+    <form name='urlap' action='php32Szoftverleltar.php' method='GET'>
+        <fieldset>
+            <legend align='right'>Szoftverleltár</legend>
+
+            <fieldset>
+                <legend>Gép</legend>
+                <p>
+                    Id:
+                    <input type='text' name='gep_id' value='NULL' size='4' readonly>
+                    Értéke automatikusan növekvő szám, így NULL érték kerül elküldésre.
+                </p>
+                <p>
+                    Hely:
+                    <input type='text' name='gep_hely' size='4'>
+                </p>
+                <p>
+                    Tipus:
+                    <input type='text' name='gep_tipus' size='8'>
+                </p>
+                <p>
+                    IP-cím:
+                    <input type='text' name='gep_ip' size='12'>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Szoftver</legend>
+                <p>
+                    Id:
+                    <input type='text' name='szoftver_id' size='4'>
+                </p>
+                <p>
+                    Név:
+                    <input type='text' name='szoftver_nev' size='33'>
+                </p>
+                <p>
+                    Kategória:
+                    <input type='text' name='szoftver_kategoria' size='26'>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Telepítés</legend>
+                <p>
+                    Id:
+                    <input type='text' name='telepites_id' value='NULL' size='4' readonly>
+                    Értéke automatikusan növekvő szám, így NULL érték kerül elküldésre.
+                </p>
+                <p>
+                    Gép id:
+                    <input type='text' name='telepites_gepid' size='4'>
+                </p>
+                <p>
+                    Szoftver id:
+                    <input type='text' name='telepites_szoftverid' size='4'>
+                </p>
+                <p>
+                    Verzió:
+                    <input type='text' name='telepites_verzio' size='17'>
+                </p>
+                <p>
+                    Dátum:
+                    <input type='date' name='telepites_datum'>
+                </p>
+            </fieldset>
+
+            <input type='submit' name='megnez' value='Megnéz'>
+            <input type='submit' name='felvesz' value='Felvesz'>
+            <input type='submit' name='torol' value='Töröl'>
+        </fieldset>
+    </form>
+</div>";

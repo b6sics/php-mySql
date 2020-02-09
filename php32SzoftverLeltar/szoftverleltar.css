@@ -1,0 +1,95 @@
+body {
+    background-image: url('szoftverleltar-hatter.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.front_page {
+    width: 800px;
+    margin: 0 auto;
+    padding: 25px 10px;
+    background-color: #fdb5a5;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 6px 6px #375E97;
+}
+
+.front_page h1 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+}
+
+fieldset {
+    margin: 15px 5px;
+    padding: 20px;
+    text-align: left;
+    border: solid 1px #375E97;
+    border-radius: 5px;
+    background-color: #ffc933;
+    box-shadow: 5px 6px 6px #375E97;
+    color: #3F861C;
+}
+
+legend {
+    padding: 2px 10px;
+    border-radius: 5px 10px 12px 18px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    background-color: #3F861C;
+    -webkit-text-stroke: 1px #1c87c9;
+    ;
+}
+
+input[type=submit] {
+    margin: 5px;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px #1c87c9;
+    ;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    background-image: linear-gradient(#3F861C, #375E97);
+    border: solid 3px #ffc933;
+    box-shadow: 0px -4px 4px 2px rgba(0, 0, 0, 0.3), 4px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 4px 4px 2px rgba(0, 0, 0, 0.3), -4px 0px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#375E97, #3F861C);
+}
+
+input[type=text],
+input[type=date] {
+    padding: 0 4px;
+    border-radius: 5px;
+    background-image: linear-gradient(white 60%, #fdb5a5);
+}
+
+.info,
+details {
+    margin: 1.5em .5em;
+    background-color: #ffc933;
+}
+
+summary {
+    font-size: 1.5em;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 4px;
+    background-color: #fdb5a5;
+}
