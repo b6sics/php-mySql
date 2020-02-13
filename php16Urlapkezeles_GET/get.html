@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<title>PHP 16 ŰRLAPKEZELÉS</title>
+	<link rel="icon" type="image/gif" href="favicon.ico">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <h2>$GET tömb használata</h2>
+
+<form action="feldolgoz.php" method="GET">
+	<p>	<label for="nev">Név: </label>
+		<input type="text" name="nev" /></p>
+	<p>	<label for="jelszó">Jelszó: </label>
+		<input type="password" name="jelszo" />
+		<input type="hidden" name="azonosito" value="visitor033" /></p>
+	<p>	<label for="nem">Nemed: </label>
+		<input type="radio" name="nem" value="ferfi" />Férfi<br />
+		<input type="radio" name="nem" value="no" checked />Nő</p>
+	<p>	<label for="eletkor">Életkor: </label>
+		<input type="number" name="eletkor" /></p>
+	<p>	<label for="hobbi">Hobbik: </label><br />
+		<input type="checkbox" name="hobbi" value="szamitastechnika" />Számítástechnika<br />
+		<input type="checkbox" name="hobbi" value="sport" />Sport<br />
+		<input type="checkbox" name="hobbi" value="olvasas" />Olvasás<br />
+		<input type="checkbox" name="hobbi" value="tv" disabled/>TV</p>
+	<p>	<label for="vegzettseg">Végzettség: </label><br />
+		<select name="vegzettseg">
+			<option selected>Általános iskola</ option>
+			<option>Középiskola</ option>
+			<option>Főiskola</ option>
+			<option>Egyetem</ option>
+		</select>
+		<br /><br />
+	<input type="submit" name="kuld" value="Elkuldes">
+</form>
+</body>
+</html>
