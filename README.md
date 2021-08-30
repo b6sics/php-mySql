@@ -128,7 +128,21 @@ adatot fogad és feldolgoz [feldolgoz.php](https://github.com/b6sics/php-mySql/b
 
 [32 szoftver leltár](https://github.com/b6sics/php-mySql/tree/master/php32SzoftverLeltar)
 
-[33 bevenincs iskola blog 0 - fájlszerkezet](https://github.com/b6sics/php-mySql/tree/master/php33-1)
+[33 bevenincs iskola blog 0 - fájlszerkezet](https://github.com/b6sics/php-mySql/tree/master/php33blog/php33-1)
+
+[33 bevenincs iskola blog v1 - fájlszerkezet](https://github.com/b6sics/php-mySql/tree/master/php33blog/php33-2)
+
+[33 bevenincs iskola blog v2 - fájlszerkezet](https://github.com/b6sics/php-mySql/tree/master/php33blog/php33-3)
+
+[33 bevenincs iskola blog v3 - fájlszerkezet](https://github.com/b6sics/php-mySql/tree/master/php33blog/php33-4)
+
+[33 bevenincs iskola blog v4 - fájlszerkezet](https://github.com/b6sics/php-mySql/tree/master/php33blog/php33-5)
+
+[33 bevenincs iskola blog v5 - fájlszerkezet](https://github.com/b6sics/php-mySql/tree/master/php33blog/php33-6)
+
+[33 bevenincs iskola blog v6 - fájlszerkezet](https://github.com/b6sics/php-mySql/tree/master/php33blog/php33-7)
+
+[33 bevenincs iskola frontpage](php33blog/index.html)
 
 ## Home
 
