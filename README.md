@@ -80,7 +80,55 @@ adatot fogad és feldolgoz [feldolgoz.php](https://github.com/b6sics/php-mySql/b
 
 [19j rename](https://github.com/b6sics/php-mySql/blob/master/php19FajlKezelesSzerveren/php19j_rename.php)
 
+[20 fájlfeltöltés](https://github.com/b6sics/php-mySql/tree/master/php20FajlFeltoltes)
 
+### php adatbázis kezelés - mySQL
+
+[21 kapcsolódás adatbázishoz](https://github.com/b6sics/php-mySql/blob/master/php21-25/php21kapcsolodasAdatbazishoz.php)
+
+[22a create table](https://github.com/b6sics/php-mySql/blob/master/php21-25/php22a_CreateTable.php)
+
+[22b drop table](https://github.com/b6sics/php-mySql/blob/master/php21-25/php22b_DropTable.php)
+
+[22c primary key](https://github.com/b6sics/php-mySql/blob/master/php21-25/php22c_PrimaryKey.php)
+
+[22d default value](https://github.com/b6sics/php-mySql/blob/master/php21-25/php22d_DefaultValue.php)
+
+[22e collate](https://github.com/b6sics/php-mySql/blob/master/php21-25/php22e_Collate.php)
+
+[22f index](https://github.com/b6sics/php-mySql/blob/master/php21-25/php22f_Index.php)
+
+[22g create index](https://github.com/b6sics/php-mySql/blob/master/php21-25/php22g_CreateIndex.php)
+
+[22h unique](https://github.com/b6sics/php-mySql/blob/master/php21-25/php22h_UNIQUE.php)
+
+[23 insert](https://github.com/b6sics/php-mySql/blob/master/php21-25/php23_Insert.php)
+
+[24 select](https://github.com/b6sics/php-mySql/blob/master/php21-25/php24_Select.php)
+
+[25 where](https://github.com/b6sics/php-mySql/blob/master/php21-25/php25_Where.php)
+
+[26a adatbázis](https://github.com/b6sics/php-mySql/blob/master/php26-30/26adatbazis.sql)
+
+[26b aggregáló függvények](https://github.com/b6sics/php-mySql/blob/master/php26-30/26aggregaloFv.php)
+
+[27a több tábla 1](https://github.com/b6sics/php-mySql/blob/master/php26-30/27_0_tobbTablas.php)
+
+[27b több tábla 2](https://github.com/b6sics/php-mySql/blob/master/php26-30/27_1_tobbTablas.php)
+
+[28 delete records](https://github.com/b6sics/php-mySql/blob/master/php26-30/28deleteRecords.php)
+
+[29 replace records](https://github.com/b6sics/php-mySql/blob/master/php26-30/29replaceRecords.php)
+
+[30 update records](https://github.com/b6sics/php-mySql/blob/master/php26-30/30updateRecords.php)
+
+### php komplex feladatok
+
+[31 próba feladat](https://github.com/b6sics/php-mySql/tree/master/php31probaFeladat)
+
+[32 szoftver leltár](https://github.com/b6sics/php-mySql/tree/master/php32SzoftverLeltar)
+
+[33 bevenincs iskola blog fájlszerkezet](https://github.com/b6sics/php-mySql/tree/master/php33-1)
 
 ## Home
 
