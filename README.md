@@ -128,7 +128,7 @@ adatot fogad és feldolgoz [feldolgoz.php](https://github.com/b6sics/php-mySql/b
 
 [32 szoftver leltár](https://github.com/b6sics/php-mySql/tree/master/php32SzoftverLeltar)
 
-[33 bevenincs iskola blog fájlszerkezet](https://github.com/b6sics/php-mySql/tree/master/php33-1)
+[33 bevenincs iskola blog 0 - fájlszerkezet](https://github.com/b6sics/php-mySql/tree/master/php33-1)
 
 ## Home
 
