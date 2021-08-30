@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<!-- link  rel="stylesheet" href="valami.css" / -->
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+		  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+		  crossorigin="anonymous" />
+
+    <title>Nevenincs-iskola</title>
+	
+	<style>
+		body { background-color: white;}
+        #front { position: absolute;
+                 background-image: url('front.png');
+                 background-size: contain;
+                 background-position: center;
+                 background-repeat: no-repeat;
+                 background-attachment: fixed;
+                 top: 62px;
+                 left: 0;
+                 bottom: 42px;
+                 right: 0;
+        }
+        pre { background-color: navy;
+              color: white; 
+              margin: 0;
+              padding: 1em;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              opacity: 20%;
+        }
+        pre:hover { opacity: 90%;
+        }
+        pre span { background-color: yellow;
+                   color: black;
+                   font-style: bold;
+        }
+        code {
+          white-space: pre;
+        }
+	</style>
+  </head>
+  <body>
+
+
+
+<hr />
+<nav class="navbar fixed-top navbar-light bg-light">
+  <a class="navbar-brand" href="nevenincs-iskola/index.php" title="Az utolsó változat">Nevenincs Iskola Blog</a>
+  <div class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" 
+       id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      verziók
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="php33-7/">blog v6</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="php33-6/">blog v5</a>
+      <a class="dropdown-item" href="php33-5/">blog v4</a>
+      <a class="dropdown-item" href="php33-4/">blog v3</a>
+      <a class="dropdown-item" href="php33-3/">blog v2</a>
+      <a class="dropdown-item" href="php33-2/">blog v1</a>
+    </div>
+  </div>
+  <a class="navbar-item" href="php33-1/">Forrásmappa blog v0</a>
+  <a class="navbar-item" href="nevenincs.sql">nevenincs.sql</a>
+  <a class="navbar-item" href="php33-ocr-forras/">*.png</a>
+  <a class="navbar-item" href="php33-ocr-text/">*.txt</a>
+</nav>
+<hr />
+
+<div id="front">
+
+
+<pre><code>   <u> A <strong>konfiguralas.php</strong> fájl <span>állandóit</span> szinkronizálni kell a webhellyel </u>
+
+&lt;?php 
+	session_start();
+	// csatlakozás az adatbázishoz
+	$kapcs = mysqli_connect("localhost", <span title="felhasználónév">"nevenincs"</span>, <span title="jelszó">"nevenincs"</span>, <span title="adatbázisnév">"nevenincs"</span>);
+	mysqli_set_charset($kapcs,"UTF8");
+	if (!$kapcs) {
+		die("Adatbázis csatlakozási hiba: " . mysqli_connect_error());
+	}
+    // globális konstansok definiálása
+	define('GYOKER_UTVONAL', realpath(dirname(__FILE__)));
+	define('ALAP_URL', <span title="weboldal címe">'http://www.nevenincsiskola.szakdolgozat.net/nevenincs-iskola/'</span>);
+?&gt;
+
+Ezek sorban:    1.adatbázis felhasználó
+                2.adatbázis jelszó
+                3.adatbázis név
+
+                4.az oldalt tartalmazó könyvtár elérési útja
+                                                                      A.D.MMXX kissJozsefGabor</code></pre>
+
+</div>
+
+<hr />
+<nav class="navbar fixed-bottom navbar-light bg-light">
+  <a class="navbar-item" href="https://www.nethely.hu/ugyfelszolgalat/">C-Panel</a>
+  <div class="nav-item dropup">
+    <a class="nav-link dropdown-toggle" href="#" 
+       id="navbarDropup" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Próba babák
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropup">
+      <span class="dropdown-item" ><code>"granit-david"  jelszo</code></span>
+      <span class="dropdown-item" ><code>"netelek"       password</code></span>
+      <span class="dropdown-item" ><code>"fekete_farkas" valami</code></span>
+      <span class="dropdown-item" ><code>"vam_piroska"   akarmi</code></span>
+      <span class="dropdown-item" ><code>"technokolos"   barmi</code></span>
+      <span class="dropdown-item" ><code>"trabantal"     012</code></span>
+      <span class="dropdown-item" ><code>"kaszablanka"   345</code></span>
+      <span class="dropdown-item" ><code>"trap.pista"    678</code></span>
+      <span class="dropdown-item" ><code>"fejetlenke"    abc</code></span>
+    </div>
+  </div>
+  <a class="navbar-item" href="https://www.nethely.hu/ingyenes-tarhely">Ingyenes tárhely</a>
+</nav>
+<hr />
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+			crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+			crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+			crossorigin="anonymous"></script>
+
+  </body>
+</html>
