@@ -18,7 +18,7 @@ weboldalak fejlesztése 2.évfolyam
 
 [05 elágazások](https://github.com/b6sics/php-mySql/blob/master/php01-06/05elagazasok.php)
 
-[06 ciklusok}(https://github.com/b6sics/php-mySql/blob/master/php01-06/06ciklusok.php)
+[06 ciklusok](https://github.com/b6sics/php-mySql/blob/master/php01-06/06ciklusok.php)
 
 ### php függvények
 
